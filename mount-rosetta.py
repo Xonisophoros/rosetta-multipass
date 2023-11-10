@@ -8,7 +8,7 @@ import argparse
 import logging
 import stat
 
-from fuse import FUSE, FuseOSError, Operations
+from fusepy import FUSE, FuseOSError, Operations
 
 # References:
 # - https://github.com/libfuse/libfuse/blob/master/example/hello.c
